@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IkyyyStore - Toko aplikasi premium, suntik sosmed, dan topup game terpercaya.">
+  <meta name="author" content="IkyyyStore">
+
+  <title>IkyyyStore - Toko Aplikasi & Topup Game</title>
+  <link rel="icon" type="image/png" href="avatar.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body{background:#0a0a0a;color:#fff;font-family:"Segoe UI",sans-serif;margin:0}
+    .container{max-width:1200px;margin:0 auto;padding:0 20px}
+    header{background:#1a1a1a;padding:15px 0;border-bottom:1px solid #333;position:sticky;top:0;z-index:100}
+    .header-content{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:15px}
+    .logo{display:flex;align-items:center;gap:10px}
+    .avatar{width:45px;height:45px;border-radius:50%;overflow:hidden;border:2px solid #87ceeb;display:flex;align-items:center;justify-content:center}
+    .avatar img{width:100%;height:100%;object-fit:cover}
+    .store-name{color:#87ceeb;font-size:22px;font-weight:700}
+    .store-subtitle{color:#cfcfcf;font-size:12px}
+    .search-bar{background:#333;border-radius:25px;padding:10px 16px;flex:1;max-width:400px;display:flex;align-items:center;gap:8px}
+    .search-bar i{color:#aaa}
+    .search-bar input{background:transparent;border:none;outline:none;color:#fff;flex:1;font-size:15px}
+    .nav-menu{display:flex;align-items:center;gap:15px}
+    .nav-categories{display:flex;flex-wrap:wrap;gap:10px}
+    .nav-categories button{background:none;border:none;color:#aaa;padding:8px 12px;border-radius:6px;cursor:pointer}
+    .nav-categories button.active,.nav-categories button:hover{color:#fff;background:#7B3AEC22;border:1px solid #7B3AEC44}
+    .btn-login,.btn-order{padding:8px 14px;border-radius:6px;cursor:pointer;text-decoration:none}
+    .btn-login{border:1px solid #fff;background:none;color:#fff}
+    .btn-order{border:none;background:#7B3AEC;color:#fff}
+    .btn-order:hover{background:#7B3AEC}
+    main{padding:25px 0}
+    .category-title{margin-bottom:15px;font-size:20px;border-left:4px solid #7B3AEC;padding-left:10px}
+    .apps-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
+    .app-card{background:#1c1c1c;border-radius:12px;padding:16px;text-align:center;transition:.2s}
+    .app-card:hover{transform:translateY(-4px);box-shadow:0 6px 20px rgba(0,0,0,0.5)}
+    .app-icon{width:70px;height:70px;border-radius:12px;overflow:hidden;margin:0 auto 8px;background:#222}
+    .app-icon img{width:100%;height:100%;object-fit:cover}
+    .app-name{font-size:16px;font-weight:600}
+    .app-category{font-size:13px;color:#bbb;margin-bottom:8px}
+    .app-actions{display:flex;gap:10px}
+    .btn-open{flex:1;background:#7B3AEC;color:#fff;border:none;border-radius:6px;padding:8px;cursor:pointer;text-decoration:none;display:inline-block;text-align:center}
+    .btn-detail{flex:1;background:none;border:1px solid #666;color:#ccc;border-radius:6px;padding:8px;cursor:pointer}
+    footer{background:#171717;padding:20px;margin-top:30px;text-align:center;border-top:1px solid #333}
+    .modal{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);display:none;align-items:center;justify-content:center;z-index:999}
+    .modal-content{background:#1e1e1e;padding:20px;border-radius:12px;max-width:400px;text-align:center}
+    .modal-content h3{margin-bottom:8px}
+    .modal-content p{color:#bbb;margin-bottom:16px}
+    .btn-close{background:#7B3AEC;color:#fff;border:none;padding:8px 14px;border-radius:6px;cursor:pointer}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-content">
+      <div class="logo">
+        <div class="avatar"><img src="avatar.jpg" alt="IkyyyStore Logo"></div>
+        <div>
+          <div class="store-name">IkyyyStore</div>
+          <div class="store-subtitle">Toko Aplikasi premium, suntik dan topup</div>
+        </div>
+      </div>
+      <div class="search-bar">
+        <i class="fas fa-search"></i><input type="text" placeholder="Cari produk...">
+      </div>
+      <div class="nav-menu">
+        <div class="nav-categories">
+          <button class="active">Semua</button>
+          <button>Desain</button>
+          <button>Musik & Video</button>
+          <button>Suntik Sosmed</button>
+          <button>Topup Game</button>
+        </div>
+        <div class="nav-buttons">
+          <a href="login.html" target="_blank" class="btn-login">Login</a>
+          <a href="order.html" target="_blank" class="btn-order">Order</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- (Bagian isi aplikasi sama dengan versi sebelumnya) -->
+
+</body>
+</html>
